@@ -25,6 +25,7 @@ struct PortfolioView: View {
                         portfolioInputSection
                     }
                 }
+                .padding(.top, 150)
             }
             .background(Color.theme.background).ignoresSafeArea()
             .navigationTitle("Edit portfolio")
