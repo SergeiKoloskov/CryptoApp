@@ -1,10 +1,3 @@
-//
-//  PortfolioView.swift
-//  CryptoApp
-//
-//  Created by MacBookPro on 19.08.2021.
-//
-
 import SwiftUI
 
 struct PortfolioView: View {
@@ -13,6 +6,7 @@ struct PortfolioView: View {
     @State private var selectedCoin: CoinModel? = nil
     @State private var quantityText: String = ""
     @State private var showCheckMark: Bool = false
+    @State private var showItself: Bool = true
     
     var body: some View {
         NavigationView {
@@ -31,7 +25,7 @@ struct PortfolioView: View {
             .navigationTitle("Edit portfolio")
             .toolbar(content: {
                 ToolbarItem(placement: .navigationBarLeading) {
-                    xMarkButton()
+                    xMarkButton(isPresented: $showItself)
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     trailingBarButtons

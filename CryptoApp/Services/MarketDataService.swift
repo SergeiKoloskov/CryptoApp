@@ -1,10 +1,3 @@
-//
-//  MarketDataService.swift
-//  CryptoApp
-//
-//  Created by MacBookPro on 17.08.2021.
-//
-
 import Foundation
 import SwiftUI
 import Combine

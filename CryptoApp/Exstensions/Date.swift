@@ -1,10 +1,3 @@
-//
-//  Date.swift
-//  CryptoApp
-//
-//  Created by MacBookPro on 21.08.2021.
-//
-
 import Foundation
 
 extension Date {

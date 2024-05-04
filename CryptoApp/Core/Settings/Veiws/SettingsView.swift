@@ -40,7 +40,7 @@ struct SettingsView: View {
             .navigationTitle("Settings")
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
-                    xMarkButton()
+//                        xMarkButton()
                 }
             }
         }

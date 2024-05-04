@@ -1,10 +1,3 @@
-//
-//  NetworkingManager.swift
-//  CryptoApp
-//
-//  Created by MacBookPro on 15.08.2021.
-//
-
 import Foundation
 import SwiftUI
 import Combine

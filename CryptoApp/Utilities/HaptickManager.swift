@@ -1,10 +1,3 @@
-//
-//  HaptickManager.swift
-//  CryptoApp
-//
-//  Created by MacBookPro on 19.08.2021.
-//
-
 import Foundation
 import SwiftUI
 

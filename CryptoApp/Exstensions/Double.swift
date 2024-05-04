@@ -1,10 +1,3 @@
-//
-//  Double.swift
-//  CryptoApp
-//
-//  Created by MacBookPro on 12.08.2021.
-//
-
 import Foundation
 import SwiftUI
 
